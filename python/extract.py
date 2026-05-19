@@ -1,7 +1,11 @@
 def extract_characters(name, n):
     #create a variable to store the extracted characters
     result_name = ""
+<<<<<<< HEAD
     #index from the argument string
+=======
+    #index from the argument strings
+>>>>>>> area
     index = 0
 
     while index != n:
