@@ -1,5 +1,6 @@
 def reverse_name(a):
-    return a[ : :-1]
+    a[ : :-1]
+    return a
 
     
 if __name__ == "__main__":
