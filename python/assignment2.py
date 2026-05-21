@@ -21,6 +21,7 @@ SubList1.extend(SubList2)
 #merged_list = SubList1
 print("the merged list:", SubList1)
 
+#4% increase in salary for each employees
 SalaryList= [9000,4000,2000,5000,100,3000,30,6000,550,470]
 for i in SalaryList:
     print(i * 0.04+ i , end=", ")
