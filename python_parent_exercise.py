@@ -17,7 +17,7 @@ class BankAccount:
             print("Deposit 10-9999999999 dollars!")
         else:
             self._balance += amount
-            print(f"Deposited: {amount}. New balance: {self._balance}")
+            print(f"Deposited: {amount}")
 
     def withdraw(self, amount):
         fee = 0
@@ -33,12 +33,11 @@ class BankAccount:
             print("withdraw invalid!!, Withdraw 0ver 0 dollar.")
         else:
             self._balance -= total_deduction
-            print(f"Withdrawn: {amount}, Fee: {fee}. New balance: {self._balance}")
+            print(f"Withdrawn: {amount}, Fee: {fee}")
 
 acct = BankAccount(5000)
 
-# Will include ₦20 fee
 print(acct.deposit(5000),
       acct.withdraw(2000),
       acct.withdraw(1000),
-      acct.get_balance())
+      "Main Balance:",acct.get_balance())
